@@ -1,0 +1,81 @@
+CREATE PROCEDURE lista_clientes(par1 INT, par2 INT)
+    RETURNING INT AS clicodigo, VARCHAR(60) AS clinome;
+    
+    DEFINE vcodigo INT;
+    DEFINE vnome VARCHAR(60);
+    
+    FOREACH
+        SELECT clicodigo, clinome
+        INTO vcodigo, vnome
+        FROM cliente
+        WHERE clicodigo BETWEEN par1 AND par2
+        RETURN vcodigo, vnome
+        WITH RESUME;
+    END FOREACH;
+END PROCEDURE;
+
+EXECUTE PROCEDURE lista_clientes(1, 100);
+
+CREATE PROCEDURE sp_cliente_por_bairro(
+    p_bairro VARCHAR(30)
+)
+    RETURNING VARCHAR(30) AS bainome, VARCHAR(60) AS clinome;
+    
+    DEFINE v_bainome VARCHAR(30);
+    DEFINE v_clinome VARCHAR(60);
+    
+    FOREACH
+        SELECT bainome, clinome
+        INTO v_bainome, v_clinome
+        FROM bairro
+        INNER JOIN cliente
+            ON bairro.baicodigo = cliente.clibaicodigo
+        WHERE bainome = p_bairro
+        RETURN v_bainome, v_clinome
+        WITH RESUME;
+    END FOREACH;
+END PROCEDURE;
+
+EXECUTE PROCEDURE sp_cliente_por_bairro('NomeDoBairro');
+
+CREATE PROCEDURE sp_insere_bairro(
+    p_baicodigo INT, p_bainome VARCHAR(30), p_baizoncodigo INT, p_baiqtdepessoas INT
+)
+    INSERT INTO bairro (baicodigo, bainome, baizoncodigo, baiqtdepessoas) VALUES (p_baicodigo, p_bainome, p_baizoncodigo, p_baiqtdepessoas);
+END PROCEDURE;
+
+EXECUTE PROCEDURE sp_insere_bairro(16, 'DISTRITO INDUSTRIAL II', 3, 200);
+EXECUTE PROCEDURE sp_insere_bairro(17, 'DISTRITO INDUSTRIAL III', 3, 200);
+
+CREATE PROCEDURE sp_excluir_bairro(
+    p_baicodigo INT
+)
+    delete from bairro where baicodigo = p_baicodigo;
+END PROCEDURE;
+
+EXECUTE PROCEDURE sp_excluir_bairro(17);
+
+CREATE PROCEDURE sp_alterar_bairro_qtdepessoas(
+    p_baicodigo INT, p_baiqtdepessoas INT
+)
+    update bairro set baiqtdepessoas=p_baiqtdepessoas where baicodigo=p_baicodigo;
+END PROCEDURE;
+
+EXECUTE PROCEDURE sp_alterar_bairro_qtdepessoas(16, 300);
+
+CREATE PROCEDURE sp_pesquisar_bairro_qtdepessoas(
+    p_bainome varchar(30)
+)
+    RETURNING VARCHAR(30) AS bainome, INT AS baiqtdepessoas;
+
+    define v_bainome varchar(30);
+    define v_baiqtdepessoas int;
+
+    select bainome, baiqtdepessoas into v_bainome, v_baiqtdepessoas
+    from bairro
+    where bainome = p_bainome;
+    return v_bainome, v_baiqtdepessoas;
+END PROCEDURE;
+
+EXECUTE PROCEDURE sp_pesquisar_bairro_qtdepessoas('DISTRITO INDUSTRIAL II');
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="time"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="button"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Temperatura</h1>
+  <form>
+    <label for="temperature">Temperatura em Celsius:</label>
+    <input type="text" id="temperature" name="temperature" placeholder="Digite a temperatura">
+
+    <label for="time-temperature">Horário da aferição tempertura:</label>
+    <input type="time" id="time-temperature" name="time-temperature">
+
+    <label for="food">Alimentação:</label>
+    <input type="text" id="food" name="food" placeholder="Digite os alimentos consumidos">
+
+    <label for="time-food">Horário da alimentação:</label>
+    <input type="time" id="time-food" name="time-food">
+
+    <label for="filho">Filho:</label>
+    <input type="text" id="time-food" name="time-food">
+
+    <input type="button" value="Enviar" id="enviar">
+  </form>
+
+
+<table style="margin-top: 20px; background-color: white; color: black; margin-left: auto; margin-right: auto;">
+  <tr>
+    <th>Temperatura</th>
+    <th>Horário Tempertura</th>
+    <th>Horário da Alimentação</th>
+    <th>Horário da Alimentação</th>
+  </tr>
+</table>
+
+  
+
+  <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,321 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Página-1" id="GfSHoWP0yE8UkhSPtZLo">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-1" target="0HNeCWlPuQUJ0uY3fp-I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-1" target="0HNeCWlPuQUJ0uY3fp-I-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-1" value="Configurar Conexões" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-2" target="0HNeCWlPuQUJ0uY3fp-I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-2" value="Selecionar Servidor de Origem (Origem)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-3" target="0HNeCWlPuQUJ0uY3fp-I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-3" value="Selecionar Servidor de Destino (Destino)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-6" target="0HNeCWlPuQUJ0uY3fp-I-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-6" value="Selecionar Database a ser migrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-11" target="0HNeCWlPuQUJ0uY3fp-I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-11" value="Migrar Estrutura da Database da Origem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-12" target="0HNeCWlPuQUJ0uY3fp-I-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="230" as="sourcePoint" />
+            <mxPoint x="900" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-12" target="0HNeCWlPuQUJ0uY3fp-I-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-12" target="0HNeCWlPuQUJ0uY3fp-I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-12" target="0HNeCWlPuQUJ0uY3fp-I-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-12" value="Selecionar Operação Desejada" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-14" target="0HNeCWlPuQUJ0uY3fp-I-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-14" value="Migrar Estrutura e Dados da Database da Origem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-18" target="0HNeCWlPuQUJ0uY3fp-I-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-18" value="Migrar Estrutura de Uma Tabela da Database da Origem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-20" target="0HNeCWlPuQUJ0uY3fp-I-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-20" value="Buscar Tabelas Independentes da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-22" target="0HNeCWlPuQUJ0uY3fp-I-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-22" value="Buscar Tabelas Referenciais da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-24" target="0HNeCWlPuQUJ0uY3fp-I-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-24" value="Buscar Colunas e suas informações da Tabelas da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-26" target="0HNeCWlPuQUJ0uY3fp-I-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-26" value="Migrar Estrutura e Dados de Uma Tabela da Database da Origem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-28" target="0HNeCWlPuQUJ0uY3fp-I-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-28" value="Gerar Estrutura de create da Origem com base na Sintaxe SQL do Destino, com base na lista" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-30" target="0HNeCWlPuQUJ0uY3fp-I-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-30" value="Criar Database da Origem no Destino por meio da Estrutura gerada, na ordem da lista ordenada" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2040" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-32" value="Fim" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-35" target="0HNeCWlPuQUJ0uY3fp-I-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-35" value="Verificar se a Database foi criada no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-50" target="0HNeCWlPuQUJ0uY3fp-I-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-50" value="Buscar Tabelas Independentes da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-52" target="0HNeCWlPuQUJ0uY3fp-I-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-52" value="Buscar Tabelas Referenciais da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-54" target="0HNeCWlPuQUJ0uY3fp-I-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-54" value="Buscar Colunas e suas informações da Tabelas da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-56" target="0HNeCWlPuQUJ0uY3fp-I-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-56" value="Gerar Estrutura de create da Origem com base na Sintaxe SQL do Destino, com base na lista" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-58" target="0HNeCWlPuQUJ0uY3fp-I-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-58" value="Criar Database da Origem no Destino por meio da Estrutura gerada, na ordem da lista ordenada" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-59" target="0HNeCWlPuQUJ0uY3fp-I-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-59" value="Verificar se a Database foi criada no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-61" target="0HNeCWlPuQUJ0uY3fp-I-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-61" value="Buscar Dados das Tabelas da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-63" target="0HNeCWlPuQUJ0uY3fp-I-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-63" value="Gerar inserções de Dados da, Database da Origem, baseados na Sintaxe SQL do Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-65" target="0HNeCWlPuQUJ0uY3fp-I-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-65" value="Inserir dados da Database da Oigem no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-67" value="Fim" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-70" target="0HNeCWlPuQUJ0uY3fp-I-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-70" value="Buscar Tabelas Independentes da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-72" target="0HNeCWlPuQUJ0uY3fp-I-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-72" value="Buscar Tabelas Referenciais da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-74" target="0HNeCWlPuQUJ0uY3fp-I-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-74" value="Selecionar Tabela(s) da Origem a ser(em) migrada(s)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-76" target="0HNeCWlPuQUJ0uY3fp-I-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-76" value="Buscar Colunas e suas informações da Tabela(s) da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-78" target="0HNeCWlPuQUJ0uY3fp-I-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-78" value="Gerar Estrutura de create da(s) Tabela(s) selecionas(s) da Origem na Sintaxe SQL do Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-79" target="0HNeCWlPuQUJ0uY3fp-I-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-79" value="Criar Tabela(s) da Origem no Destino por meio da Estrutura gerada, na ordem da lista ordenada" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-81" target="0HNeCWlPuQUJ0uY3fp-I-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-81" value="Gerar Lista Ordenada de integridade referencial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-83" target="0HNeCWlPuQUJ0uY3fp-I-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-83" value="Gerar Lista Ordenada de integridade referencial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-89" target="0HNeCWlPuQUJ0uY3fp-I-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-89" value="Gerar Lista Ordenada de integridade referencial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-92" target="0HNeCWlPuQUJ0uY3fp-I-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-92" value="Buscar Tabela(s) da Origem da qual a(s) selecionada(s) depende(m)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-95" target="0HNeCWlPuQUJ0uY3fp-I-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-95" value="Verificar se a Database foi criada no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-97" value="Fim" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-100" target="0HNeCWlPuQUJ0uY3fp-I-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-100" value="Buscar Tabelas Independentes da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-102" target="0HNeCWlPuQUJ0uY3fp-I-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-102" value="Buscar Tabelas Referenciais da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-104" target="0HNeCWlPuQUJ0uY3fp-I-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-104" value="Selecionar Tabela(s) da Origem a ser(em) migrada(s)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-106" target="0HNeCWlPuQUJ0uY3fp-I-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-106" value="Buscar Colunas e suas informações da Tabela(s) da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-108" target="0HNeCWlPuQUJ0uY3fp-I-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-108" value="Gerar Estrutura de create da(s) Tabela(s) selecionas(s) da Origem na Sintaxe SQL do Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-110" target="0HNeCWlPuQUJ0uY3fp-I-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-110" value="Criar Tabela(s) da Origem no Destino por meio da Estrutura gerada, na ordem da lista ordenada" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-112" target="0HNeCWlPuQUJ0uY3fp-I-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-112" value="Gerar Lista Ordenada de integridade referencial" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-114" target="0HNeCWlPuQUJ0uY3fp-I-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-114" value="Buscar Tabela(s) da Origem da qual a(s) selecionada(s) depende(m)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-116" target="0HNeCWlPuQUJ0uY3fp-I-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-116" value="Verificar se a Database foi criada no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-120" target="0HNeCWlPuQUJ0uY3fp-I-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-120" value="Buscar Dados das Tabelas da Database da Origem" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-122" target="0HNeCWlPuQUJ0uY3fp-I-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-122" value="Gerar inserções de Dados da, Database da Origem, baseados na Sintaxe SQL do Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0HNeCWlPuQUJ0uY3fp-I-124" target="0HNeCWlPuQUJ0uY3fp-I-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-124" value="Inserir dados da Database da Oigem no Destino" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3240" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0HNeCWlPuQUJ0uY3fp-I-125" value="Fim" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3440" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
